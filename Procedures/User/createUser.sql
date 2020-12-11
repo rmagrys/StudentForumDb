@@ -1,6 +1,4 @@
-
 drop procedure if exists `db`.`create user`;
-
 delimiter $$
 
 CREATE PROCEDURE `db`.`create user`(

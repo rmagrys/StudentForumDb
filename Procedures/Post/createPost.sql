@@ -1,6 +1,5 @@
 
 drop procedure if exists  `db`.`createPost`;
-
 DELIMITER $$
 
 CREATE PROCEDURE `db`.`createPost` (

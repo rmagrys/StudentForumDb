@@ -1,7 +1,6 @@
 drop procedure if exists `db`.`countVotesByCommentId`;
 delimiter $$
 
-
 CREATE PROCEDURE `db`.`countVotesByCommentId`(
 	commentId INT
 )

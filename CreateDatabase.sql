@@ -26,7 +26,6 @@ CREATE TABLE IF NOT EXISTS `db`.`User` (
   `creationDate` DATE NOT NULL,
   `enabled` BIT(1) NOT NULL,
   `RoleId` INT NOT NULL,
-  
   PRIMARY KEY (`idUser`),
   FOREIGN KEY (`RoleId`) 
     REFERENCES `db`.`Role` (`idRole`)

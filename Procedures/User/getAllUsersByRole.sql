@@ -1,4 +1,3 @@
-
 drop procedure if exists `db`.`getAllUsersByRole`;
 
 delimiter $$
